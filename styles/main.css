@@ -1,0 +1,21 @@
+@import "./fish-list.css";
+@import "./travel.css";
+@import "./fish-care.css";
+
+
+header, .fishList, .travel, .travel__quotes, .travel__locations, .tips__list {
+    border: 1px dashed black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: rgb(252, 181, 172);
+    text-align: center;
+}
+
+

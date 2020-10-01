@@ -1,0 +1,13 @@
+.fish__img {
+    width: 50px;
+    height: auto;
+}
+
+.fish__name {
+    font-size: 20px;
+}
+
+.fishList {
+    background-color: rgb(64, 190, 190);
+    display:flex;
+}
