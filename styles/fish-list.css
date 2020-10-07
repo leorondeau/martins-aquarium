@@ -1,16 +1,37 @@
-.fish__img {
-    max-width: 200px;
-    height: auto;
-}
-
-.fish__name {
-    font-size: 20px;
-}
-
 .fishList {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(64, 190, 190);
-    border: 4px solid black;
-    width: 400px;
+    justify-content: space-evenly;
+    padding: 1em;
+    
 }
+
+.fish__name {
+    font-size: 1em;
+} 
+
+.card {
+   background-color: rgb(198, 240, 243); 
+   
+}
+
+.card:hover {
+    box-shadow: 2px 4px 4px 0 rgb(56, 55, 55);
+}
+
+.fish {
+    box-align: center;
+    padding: .5em;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: .5em;
+}
+
+.fish__img {
+    border-radius: 10px;
+}
+
+
+
+
+

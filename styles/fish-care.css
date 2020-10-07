@@ -1,3 +1,7 @@
 .tips__list {
-    background-color: rgb(178, 235, 252);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    border: 2px solid black;
 }
+
