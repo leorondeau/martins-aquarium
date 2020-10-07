@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgb(64, 190, 190);
     padding: 1em;
     
 }
@@ -10,3 +9,24 @@
 .fish__name {
     font-size: 1em;
 } 
+
+.card {
+   
+    
+    box-shadow: 
+}
+
+.fish {
+    box-align: center;
+    padding: .5em;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: .5em;
+}
+
+.fish__img {
+    border-radius: 10px;
+}
+
+
+
