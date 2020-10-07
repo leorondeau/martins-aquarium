@@ -11,9 +11,12 @@
 } 
 
 .card {
+   background-color: rgb(198, 240, 243); 
    
-    
-    box-shadow: 
+}
+
+.card:hover {
+    box-shadow: 2px 4px 4px 0 rgb(56, 55, 55);
 }
 
 .fish {
@@ -27,6 +30,8 @@
 .fish__img {
     border-radius: 10px;
 }
+
+
 
 
 

@@ -11,11 +11,11 @@ body {
 main {
     display: flex;
     padding: 1em;
-    
+    justify-content: space-;
 }
 
 header {
-    background-color: rgb(252, 181, 172);
+    
     text-align: left;
 }
 
@@ -31,15 +31,11 @@ header {
 }
 
 img {
-    width: 200px;
+    width: 300px;
+
 }
 
 .fish__title {
     
 }
 
-.tips__list {
-    padding: 1em;
-    margin: 1em;
-    border-radius: 10px;
-}
