@@ -1,15 +1,42 @@
 @import "./fish-list.css";
 @import "./travel.css";
 @import "./fish-care.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Serif' , sans-serif;
+    
+}
 
 
 main {
     display: flex;
+    padding: 1em;
+    justify-content: space-;
 }
 
 header {
-    background-color: rgb(252, 181, 172);
+    
     text-align: left;
 }
 
+
+.large__container {
+    flex: 3;
+    margin: 1em;
+}
+
+.aside {
+    flex: 1;
+   
+}
+
+img {
+    width: 300px;
+
+}
+
+.fish__title {
+    
+}
 
