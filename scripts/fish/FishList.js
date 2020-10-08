@@ -2,7 +2,7 @@ import { useFish } from './FishDataProvider.js'
 import { Fish } from   './Fish.js'
 
 export const FishList = () => {
-    const contentElement = document.querySelector(".large__container")
+    const contentElement = document.querySelector(".fishList")
     const fishes = useFish()
 
     let fishHTMLRepresentations = ""
@@ -11,7 +11,7 @@ export const FishList = () => {
         fishHTMLRepresentations += Fish(fish)
     }
     return contentElement.innerHTML += `
-    <article class="large__container">
+    <article class="fishList">
         ${fishHTMLRepresentations}
         </article>`
 }

@@ -1,6 +1,6 @@
 export const Tips = (tip) => {
     return ` 
-        <aside class="tips__list">
+        <aside class=water__type>
             <h3>${tip.tank}</h3>
                 <p>${tip.stepOne}</p>
                 <p>${tip.stepTwo}</p>
