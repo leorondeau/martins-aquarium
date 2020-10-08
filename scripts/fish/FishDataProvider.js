@@ -1,5 +1,6 @@
 const fishCollection = [
     {
+        type: "Peppermint Anglefish",
         name: "Mint",
         species: "Centropyge boylei",
         length: 3,
@@ -9,6 +10,7 @@ const fishCollection = [
 
     },
     {
+        type: "Masked Anglefish",
         name: "The Crook",
         species: "Genicanthus personatus",
         length: 8,
@@ -18,6 +20,7 @@ const fishCollection = [
     },
 
 {
+        type: "Clownfish",
         name: "Cookie",
         species: "Premnas biaculeatus",
         length: 3,
@@ -26,6 +29,7 @@ const fishCollection = [
         img: "https://reefbuilders.com/wp-content/blogs.dir/1/files/ngg_featured/peace-keeper-maroon-clownfish-4.jpg"
     },
     {
+        type: "Wolf Ciudid",
         name: "Killer",
         species: "Parachromis dovii",
         length: 28,
@@ -35,6 +39,7 @@ const fishCollection = [
 
     },
     {
+        type: "Vampire Fish",
         name: "Vlad",
         species: "Payara",
         length: 12,
@@ -43,6 +48,7 @@ const fishCollection = [
         img: "https://nitrocdn.com/ErXqfwuJXOyatMMstrPsxoGzmRYqqSef/assets/static/source/rev-9e7b689/wp-content/uploads/Vampire_Tetra_large-1.jpg"
     },
     {
+        type: "Koi",
         name: "Aaron",
         species: "Cyprinus rubrofuscus",
         length: 36,

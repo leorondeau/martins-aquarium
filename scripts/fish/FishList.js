@@ -1,5 +1,5 @@
 import { useFish } from './FishDataProvider.js'
-import { Fish } from "./Fish.js" 
+import { Fish } from   './Fish.js'
 
 export const FishList = () => {
     const contentElement = document.querySelector(".large__container")
@@ -7,11 +7,11 @@ export const FishList = () => {
 
     let fishHTMLRepresentations = ""
     for (const fish of fishes) {
-       const allFish = Fish(fish)
-        fishHTMLRepresentations += allFish
+        
+        fishHTMLRepresentations += Fish(fish)
     }
     return contentElement.innerHTML += `
-        <article class="fishList">
+    <article class="large__container">
         ${fishHTMLRepresentations}
         </article>`
 }
