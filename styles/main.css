@@ -12,7 +12,7 @@ body {
 main {
     display: flex;
     padding: 1em;
-    justify-content: space-;
+    justify-content: space-between;
 }
 
 header {
