@@ -1,6 +1,6 @@
 @import "./fish-list.css";
-@import "./travel.css";
-@import "./fish-care.css";
+@import "./location.css";
+@import "./tips-list.css";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
 body {
@@ -23,17 +23,19 @@ header {
 
 .large__container {
     flex: 3;
-    margin: 1em;
+    height: auto;
+    
 }
 
-.aside {
+aside {
     flex: 1;
-    height: 200px;
+    height: 70%;
    
 }
 
 img {
     width: 300px;
+    height: auto;
 
 }
 

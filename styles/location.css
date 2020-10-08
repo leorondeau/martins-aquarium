@@ -1,0 +1,20 @@
+.travel {
+    background-color: rgb(125, 248, 222);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: .5em;
+    padding: .5em;
+}
+
+.location__img {
+    border-radius: 10px;
+}
+
+.locations {
+    display: flex;
+    padding: .5em;
+}
+
+.location__name {
+    font-size: 1em;
+}
