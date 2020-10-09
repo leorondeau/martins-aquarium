@@ -1,18 +1,43 @@
-import { useFish } from './FishDataProvider.js'
+import { mostHolyFish , soldierFish , regularFish } from './FishDataProvider.js'
 import { Fish } from   './Fish.js'
+
+
+
 
 export const FishList = () => {
     const contentElement = document.querySelector(".fishList")
-    const fishes = useFish()
+    
+    const fishes = mostHolyFish()
 
-    let fishHTMLRepresentations = ""
+    let holyHTMLRepresentations = ""
+    
     for (const fish of fishes) {
         
-        fishHTMLRepresentations += Fish(fish)
+        holyHTMLRepresentations += Fish(fish)
     }
+
+    const soldierFishes = soldierFish()
+    let soldierHTMLRepresentations = ""
+    
+    for (const fish of soldierFishes) {
+
+        soldierHTMLRepresentations += Fish(fish)
+    }
+
+    const regularFishes = regularFish()
+    let regularHTMLRepresentations = ""
+    
+    for (const fish of regularFishes) {
+        
+        regularHTMLRepresentations += Fish(fish)
+    }
+
+
     return contentElement.innerHTML += `
     <article class="fishList">
-        ${fishHTMLRepresentations}
+        ${holyHTMLRepresentations}
+        ${soldierHTMLRepresentations}
+        ${regularHTMLRepresentations}
         </article>`
 }
 
